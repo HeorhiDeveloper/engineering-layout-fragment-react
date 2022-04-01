@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    /* background: red; */
+    /* border: 1px solid red; */
+    width: 100%;
+    /* height: 3000px; */
+    
+}
+
+.sectionOne {
+    /* background: orange; */
+    /* border: 1px solid orange; */
+    width: 100%;;
+    height: 768px;
+    
+}
+
+.sectionOne img {
+    position: absolute;
+    width: 100%;
+    height: 768px;
+    left: 0px;
+    top: 0px;
+}
+
+.sectionTwo {
+    /* background: green; */
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 449px;
+}
+
+.sectionTree {
+    /* background: yellow; */
+    /* border: 1px solid yellow; */
+    width: 100%;
+    height: 753px;
+}
+
+.sectionTree img {
+    /* position: absolute; */
+    width: 100%;
+    height: 753px;
+    left: 0px;
+    top: 0px;
+}
+
+.sectionFour {
+    /* background: rgb(77, 22, 94); */
+    /* border: 1px solid yellow; */
+    width: 100%;
+    height: 356px;
+}
+
+.sectionFive {
+    /* background: blue; */
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 441px;
+}
+
+.sectionSix {
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    left: 0px;
+    top: 2767px;
+    /* border: 1px solid red; */
+}
+
+.sectionSeven {
+    position: absolute;
+    width: 100%;
+    height: 512px;
+    left: 0px;
+    top: 3459px;
+    /* background: red;
+    border: 1px solid green; */
+}
+
+
+.sectionEight {
+    position: absolute;
+    width: 100%;
+    height: 512px;
+    left: 0px;
+    top: 3970px;
+    /* background: yellow; */
+    /* border: 1px solid rgb(245, 5, 17); */
+}
+
+.sectionEight img {
+    position: absolute;
+    width: 100%;
+    height: 408px;
+    left: 0px;
+    top: 0px;
+}
+
+.sectionNine {
+    position: absolute;
+    width: 100%;
+    height: 110px;
+    left: 0px;
+    top: 4378px;    
+    /* background: blue; */
+}

@@ -1,0 +1,341 @@
+.HeaderContent {
+    position: absolute;
+    /* background: rgb(139, 24, 192); */
+    width: 100%;;
+    height: 688px;
+    left: 0px;
+    top: 80px;
+}
+
+.h1One {
+    position: absolute;
+    width: 580px;
+    /* height: 103px; */
+    left: 370px;
+    top: 208px;
+
+    font-family: Gilroy-bold;
+    font-size: 42px;
+    line-height: 51px;
+    letter-spacing: -0.5px;
+
+    color: #FFFFFF;
+}
+
+.h3One {
+    position: absolute;
+    width: 363px;
+    /* height: 68px; */
+    left: 370px;
+    top: 349px;
+
+    font-family: ProximaNova;
+    font-size: 20px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+
+    opacity: 0.7;
+}
+
+.btOne {
+    border: none;
+
+    position: absolute;
+    width: 340px;
+    height: 70px;
+    left: 1200px;
+    top: 220px;
+
+    background: #FEE040;
+    border-radius: 2px;
+}
+
+.btOne:hover {
+    background: #af9812;
+}
+
+.btOne img {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 50px; 
+    top: 26px;    
+}
+
+.btOne span {
+    position: absolute;
+    width: 201px;
+    height: 15px;
+    left: 80px;
+    top: 28px;
+    
+    font-family: Gilroy-bold;
+    font-size: 12px;
+    line-height: 15px;
+        
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+    color: #000000;    
+}
+
+.h4One {
+    position: absolute;
+    width: 340px;
+    /* height: 84px; */
+    left: 1200px;
+    top: 320px;
+
+    font-family: ProximaNova;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.imgOne img {
+    position: absolute;
+    width: 49.11px;
+    height: 46.96px;
+    left: 249.86px;
+    top: 572.52px;
+}
+
+.h301 {
+    position: absolute;
+    width: 180px;
+    height: 56px;
+    left: 330px;
+    top: 572px;
+
+    font-family: ProximaNova;
+    
+    font-size: 20px;
+    line-height: 28px;
+    
+    letter-spacing: -0.5px;
+
+    color: #FFFFFF;
+}
+
+.imgTwo img {
+    position: absolute;
+    width: 53.01px;
+    height: 46.96px;
+    left: 609.86px;
+    top: 572.52px;
+}
+
+.h302 {
+    position: absolute;
+    width: 180px;
+    height: 56px;
+    left: 690px;
+    top: 572px;
+
+    font-family: ProximaNova;
+    font-size: 20px;
+    line-height: 28px;
+
+
+    letter-spacing: -0.5px;
+
+    color: #FFFFFF;
+}
+
+.imgTree img {
+    position: absolute;
+    width: 52.65px;
+    height: 46.96px;
+    left: 969.86px;
+    top: 572.52px;
+}
+
+.h303 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    left: 1050px;
+    top: 572px;
+
+    font-family: ProximaNova;
+    font-size: 20px;
+    line-height: 28px;
+
+    letter-spacing: -0.5px;
+
+    color: #FFFFFF;
+}
+
+.imgStamp img {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 1430px;
+    top: 400px;
+
+    animation: 20s linear 0s normal none infinite running rot;
+}
+
+@keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+.btTwo {
+    position: absolute;
+    border: none;
+    border-radius: 50%;
+    background: black;
+    box-shadow: 0px 5px 35px 3px rgba(0, 0, 0, 0.2);
+    transition: transform .5s;
+    width: 155px;
+    height: 155px;
+    left: 1463px;
+    top: 434px;
+}
+
+.btTwo img {
+    width: 155px;
+    height: 155px;
+}
+
+.btTwo:hover {
+    transform: scale(1.2);
+} 
+
+
+@media all and (max-width: 1520px) {
+    .h1One {
+        left: 196px;
+    }
+    .h3One {
+        left: 196px;
+    }
+    .btOne {
+        left: 946px;
+    }
+    .h4One {
+        left: 946px;
+    }
+    .imgStamp img {
+        left: 1230px;
+    }
+    .btTwo {
+        left: 1263px;
+    }
+} 
+
+
+@media all and (max-width: 1190px) {
+    .h1One {
+        left: 150px;
+    }
+    .h3One {
+        left: 150px;
+    }
+    .btOne {
+        left: 736px;
+    }
+    .h4One {
+        left: 736px;
+    }
+    .imgStamp img {
+        left: 900px;
+    }
+    .btTwo {
+        left: 933px;
+    }
+
+    
+    .imgOne img {
+        left: 105px;
+    }
+    .h301 {
+        left: 185.14px;
+    }
+
+    .imgTwo img {
+        left: 400px;
+    }
+    .h302 {
+        left: 480.14px;
+    }
+
+    .imgTree img {
+        left: 690px;
+    }
+    .h303 {
+        left: 770.14px;
+    }
+
+    
+}
+
+@media all and (max-width: 860px) {
+    .h1One {
+        left: 20px;
+        top: 10px;
+    }
+    .h3One {
+        left: 20px;
+        top: 120px;
+        
+    }
+    .btOne {
+        left: 20px;
+    }
+    .h4One {
+        left: 20px;
+    }
+    .imgStamp img {
+        left: 500px;
+    }
+    .btTwo {
+        left: 533px;
+    }
+   
+    
+    .imgOne img {
+        left: 20px;
+        top: 420px;
+    }
+    .h301 {
+        left: 105px;
+        top: 420px;
+    }
+
+    .imgTwo img {
+        left: 20px;
+        top: 500px;
+    }
+    .h302 {
+        left: 105px;
+        top: 500px;
+    }
+
+    .imgTree img {
+        left: 20px;
+        top: 580px;
+    }
+    .h303 {
+        left: 105px;
+        top: 580px;
+    }
+
+    
+}

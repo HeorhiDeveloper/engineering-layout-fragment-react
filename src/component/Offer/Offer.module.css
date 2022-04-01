@@ -1,0 +1,111 @@
+.offer {
+    position: absolute;
+    display: flex;
+    width: 75%;
+    height: 408px;
+    left: 250px;
+    
+}
+
+.divOne {
+    width: 35%;
+    height: 408px;
+}
+
+.divTwo {
+    width: 35%;
+    height: 408px;
+}
+
+.divTree {
+    width: 35%;
+    height: 408px;
+}
+
+.divOne h2 {
+    width: 400px;
+    margin-top: 60px;   
+    font-family: 'ProximaNova';
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 42px;
+       
+    letter-spacing: -0.5px;
+    
+    color: #FFFFFF;    
+}
+
+.divOne span {
+   color: #FEE040;
+}
+
+.divTwo h3 {
+    width: 400px;
+    margin-top: 60px;     
+    font-family: 'ProximaNova';
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 28px;
+       
+    letter-spacing: -0.5px;
+    
+    color: #FFFFFF; 
+}
+
+
+.btOne {
+    border: none;
+
+    position: absolute;
+    width: 340px;
+    height: 70px;
+    left: 1040px;
+    top: 67px;
+
+    background: #FEE040;
+    border-radius: 2px;
+}
+
+.btOne:hover {
+    background: #af9812;
+}
+
+.btOne img {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 50px; 
+    top: 26px;    
+}
+
+.btOne span {
+    position: absolute;
+    width: 201px;
+    height: 15px;
+    left: 80px;
+    top: 28px;
+    
+    font-family: Gilroy-bold;
+    font-size: 12px;
+    line-height: 15px;
+        
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+    color: #000000;    
+}
+
+.divTree h4 {
+    position: absolute;
+    width: 340px;
+    /* height: 84px; */
+    left: 1040px;
+    top: 170px;
+
+    font-family: ProximaNova;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}

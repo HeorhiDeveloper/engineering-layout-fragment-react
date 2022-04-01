@@ -1,0 +1,189 @@
+.header {
+    position: absolute;
+    width: 100%;;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+}
+
+.logoCompany img {
+    position: absolute;
+    width: 196.75px;
+    height: 30px;
+    left: 250px;
+    top: 24px;
+}
+
+.h4One, .h4Two {
+    position: absolute;
+        
+    font-family: ProximaNova;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 12px;
+       
+    letter-spacing: -0.5px;
+    
+    color: #FFFFFF;
+} 
+
+.aOne, .aTwo {
+    position: absolute;
+    text-decoration: none;   
+    font-family: ProximaNova;
+    font-weight: 600;
+    
+    line-height: 12px;
+        
+    text-align: right;
+    letter-spacing: -0.5px;
+    
+    color: #FEE040;        
+} 
+
+
+.h4One {
+    width: 130px;
+    height: 12px;
+    left: 1210px;
+    top: 23px;
+}
+
+.mail img {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 1210.5px;
+    top: 44.5px;
+         
+}
+
+
+
+.aOne {
+    width: 111px;
+    height: 12px;
+    left: 1230px;
+    top: 45px;    
+    font-size: 16px;
+}
+
+.aOne {
+    text-decoration: none;
+}
+
+.phone img {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 1492px;
+    top: 22px;
+    
+}
+
+.h4Two {
+    width: 150px;
+    height: 12px;
+    left: 1510px;
+    top: 23px;
+    
+}
+
+.aTwo {
+    width: 188px;
+    height: 25px;
+    left: 1460px;
+    top: 45px;
+    font-size: 18px;
+           
+    text-align: right;
+    
+    color: #FFFFFF;
+}
+
+
+
+@media all and (max-width: 1520px) {
+    .h4One {
+        left: 860px;
+    }
+
+    .mail img {
+        left: 860px;
+    }
+    
+    .aOne {
+        left: 880px;
+    }
+
+    .phone img {
+        left: 1168px;
+    }
+    
+    .h4Two {
+        left: 1180px;
+    }
+    
+    .aTwo {
+        left: 1150px;
+    }
+} 
+
+
+@media all and (max-width: 1190px) {
+    .h4One {
+        left: 530px;
+    }
+
+    .mail img {
+        left: 530px;
+    }
+    
+    .aOne {
+        left: 550px;
+    }
+
+    .phone img {
+        left: 838px;
+    }
+    
+    .h4Two {
+        left: 850px;
+    }
+    
+    .aTwo {
+        left: 820px;
+    }
+}
+
+@media all and (max-width: 860px) {
+    
+    .logoCompany img {
+        left: 20px;
+    }
+
+
+    .h4One {
+        left: 250px;
+    }
+
+    .mail img {
+        left: 250px;
+    }
+    
+    .aOne {
+        left: 270px;
+    }
+
+    .phone img {
+        left: 558px;
+    }
+    
+    .h4Two {
+        left: 570px;
+    }
+    
+    .aTwo {
+        left: 540px;
+    }
+}

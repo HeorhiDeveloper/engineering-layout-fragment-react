@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy'), url(./fonts/Gilroy-Thin.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-bold';
+    src: local('gilroy-bold'), url(./fonts/gilroy-bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: local('ProximaNova'), url(./fonts/ProximaNova-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'ProximaNovaBold';
+    src: local('ProximaNovaBold'), url(./fonts/proximanova_black.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'BebasNeueBold';
+    src: local('BebasNeueBold'), url(./fonts/BebasNeueBold.ttf) format('truetype');
+}
+

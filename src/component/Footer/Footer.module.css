@@ -1,0 +1,169 @@
+.footer {
+    position: absolute;
+    display: flex;
+    width: 75%;
+    height: 110px;
+    left: 250px;
+}   
+
+.divOne {
+    width: 30%;
+    height: 110px;
+}
+
+.divTwo {
+    width: 20%;
+    height: 110px;
+}
+
+.divTree {
+    width: 20%;
+    height: 110px;
+}
+
+.divFour {
+    width: 30%;
+    height: 110px;
+}
+
+.divOne h4, .divTwo h4, .divTree h4, .divFour h4 {
+    font-family: 'ProximaNova'; 
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.5px; 
+    
+    color: #151515;
+} 
+
+.divOne a, .divTwo a, .divTree a, .divFour a {
+    text-decoration: none;
+    font-family: 'ProximaNova';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    
+    color: #151515;
+} 
+
+.divOne h4 {
+    width: 296px;
+    margin-top: 30px;   
+    line-height: 18px;
+}
+
+.divTwo h4 {
+    width: 107px;
+    margin-top: 30px;      
+    line-height: 12px;
+    
+}
+
+.divTwo a {
+    width: 90px;
+}
+
+.divTree h4 {
+    width: 150px;
+    margin-top: 30px;      
+}
+
+
+.divTree a {
+     width: 90px;
+}
+
+.divFour h4 {
+    width: 150px;
+    margin-top: 30px;      
+}
+
+.divFour a {
+    width: 200px;
+}
+
+
+
+/* @media all and (max-width: 1520px) {
+    .pOne {
+        left: 860px;
+    }
+
+    .mail img {
+        left: 860px;
+    }
+    
+    .Two {
+        left: 880px;
+    }
+
+    .phone img {
+        left: 1168px;
+    }
+    
+    .pTree {
+        left: 1180px;
+    }
+    
+    .aFour {
+        left: 1150px;
+    }
+} 
+
+
+@media all and (max-width: 1190px) {
+    .pOne {
+        left: 530px;
+    }
+
+    .mail img {
+        left: 530px;
+    }
+    
+    .Two {
+        left: 550px;
+    }
+
+    .phone img {
+        left: 838px;
+    }
+    
+    .pTree {
+        left: 850px;
+    }
+    
+    .aFour {
+        left: 820px;
+    }
+}
+
+@media all and (max-width: 860px) {
+    
+    .logoCompany img {
+        left: 20px;
+    }
+
+
+    .pOne {
+        left: 250px;
+    }
+
+    .mail img {
+        left: 250px;
+    }
+    
+    .Two {
+        left: 270px;
+    }
+
+    .phone img {
+        left: 558px;
+    }
+    
+    .pTree {
+        left: 570px;
+    }
+    
+    .aFour {
+        left: 540px;
+    }
+} */

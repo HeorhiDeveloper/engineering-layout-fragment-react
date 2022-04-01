@@ -1,0 +1,26 @@
+.h2One {
+    width: 100%;
+    font-family: Gilroy-bold;
+    font-size: 74px;
+    text-align: center;
+    margin-top: 60px;
+    text-transform: uppercase;
+
+    background: linear-gradient(360deg, #34729E 33%, #74a0c0 66%, #8AA9D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+}
+
+.h2Two {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;    
+    font-family: Gilroy-bold;
+    font-weight: bold;
+    line-height: 28px;
+        
+    text-align: center;
+    
+    color: #505050;    
+}

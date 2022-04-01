@@ -1,0 +1,116 @@
+.imgHenry img {
+    position: absolute;
+    width: 960px;
+    height: 441px;
+    left: 1px;
+    /* top: 2374px;       */
+}
+
+.imgBg {
+    width: 50%;
+    height: 441px;
+    margin-left: 948px;
+    left: 960px;
+    top: 2374px;     
+    background: #F5F5F5;
+}
+
+.step {
+    position: absolute;
+    width: 107px;
+    height: 27px;
+    left: 1030px;
+    top: 2458px;    
+    background: #FEE040;
+    
+}
+
+.step p {
+    padding-top: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: ProximaNova;
+    font-weight: bold;
+}
+
+.h3One {
+    position: absolute;
+    width: 298px;
+   
+    left: 1157px;
+    top: 2457px;  
+    
+    font-family: ProximaNova;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 34px;
+        
+    letter-spacing: -0.5px;
+    
+    color: #151515;    
+}
+
+.h4One {
+    position: absolute;
+    width: 460px;
+    
+    left: 1030px;
+    top: 2510px;  
+    
+    font-family: ProximaNova;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+        
+    letter-spacing: -0.5px;
+    
+    color: #333333;
+    
+    opacity: 0.7;    
+}
+
+.imgIconMen img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 984px;
+    top: 2596px;  
+}
+
+.pOne {
+    position: absolute;
+    width: 380px;
+    height: 72px;
+    left: 1130px;
+    top: 2620px;  
+    
+    font-family: ProximaNova;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 24px;
+        
+    letter-spacing: -0.5px;
+    
+    color: #505050;
+    
+    opacity: 0.7;    
+}
+
+.h4Two {
+    position: absolute;
+    width: 450px;
+    height: 26px;
+    left: 1130px;
+    top: 2714px;  
+    
+    font-family: ProximaNova;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    
+    letter-spacing: -0.5px;
+        
+    color: #151515;
+    
+    opacity: 0.7;    
+}
